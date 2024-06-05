@@ -15,8 +15,6 @@ export default function WeatherApp() {
   let units = "metric";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Leeuwarden&appid=${apiKey}&units=${units}`;
 
-  axios.get(apiUrl).then();
-
   return (
     <div className="WeatherApp">
       <div className="weather-info-left">
